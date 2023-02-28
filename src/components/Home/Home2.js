@@ -1,13 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import React from "react"
+import { Container, Row, Col } from "react-bootstrap"
+import myImg from "../../Assets/avatar.svg"
+import Tilt from "react-parallax-tilt"
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai"
+import { FaLinkedinIn } from "react-icons/fa"
 
 function Home2() {
   return (
@@ -19,21 +15,24 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I began programming towards the later part of my Naval career
+              coding macros in excel and custom Python programs at home... Later
+              on I fell in love with Web Development and began learning HTML,
+              CSS etc...
               <br />
-              <br />I am fluent in classics like
+              <br />I am proficient in
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple">
+                  {" "}
+                  HTML, CSS, Javascript, Python, and React.{" "}
+                </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Web Applications, SAAS, and Innovative Products.
                 </b>
               </i>
               <br />
@@ -67,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/jox51"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/DomPeel82"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/orlando-dominici-83078082/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +96,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/jox51"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -110,6 +109,6 @@ function Home2() {
         </Row>
       </Container>
     </Container>
-  );
+  )
 }
-export default Home2;
+export default Home2

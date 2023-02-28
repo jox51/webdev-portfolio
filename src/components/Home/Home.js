@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
-import Home2 from "./Home2";
-import Type from "./Type";
+import React from "react"
+import { Container, Row, Col } from "react-bootstrap"
+import homeLogo from "../../Assets/home-main.svg"
+import Particle from "../Particle"
+import Home2 from "./Home2"
+import Type from "./Type"
 
 function Home() {
   return (
@@ -22,7 +22,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> ORLANDO DOMINICI</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -43,7 +43,7 @@ function Home() {
       </Container>
       <Home2 />
     </section>
-  );
+  )
 }
 
-export default Home;
+export default Home
