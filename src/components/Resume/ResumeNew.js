@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { Container, Row } from "react-bootstrap"
 import Button from "react-bootstrap/Button"
 import Particle from "../Particle"
-import pdf from "../../Assets/../Assets/WebDev-Resume-Dominici.pdf"
+import pdf from "../../Assets/../Assets/Doms-Resume-Software_Engineer.pdf"
 
 import { AiOutlineDownload } from "react-icons/ai"
 import { Document, Page, pdfjs } from "react-pdf"
@@ -10,7 +10,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
 
 const resumeLink =
-  "https://raw.githubusercontent.com/jox51/webdev-portfolio/main/src/Assets/WebDev-Resume-Dominici.pdf"
+  "https://raw.githubusercontent.com/jox51/webdev-portfolio/main/src/Assets/Doms-Resume-Software_Engineer.pdf"
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200)

@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards"
 import Particle from "../Particle"
 
 import picks from "../../Assets/Projects/picks.jpg"
+import goals from "../../Assets/Projects/goals.png"
 
 function Projects() {
   return (
@@ -28,18 +29,18 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={goals}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Smart Goals"
+              description="Goal tracker app where a user can set and track goals. Built with React. Coded with MERN stack with full CRUD functionality. Authentication done via JWT through the server. User can register, login, create goals and then load saved goals from database. When a goal is completed, a user can than delete that particular goal."
+              ghLink="https://github.com/jox51/goal-setter-app"
+              demoLink="https://goal-getter-mern.netlify.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
