@@ -24,7 +24,8 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  HTML, CSS, Javascript, Python, and React.{" "}
+                  HTML, CSS, Javascript, Node, Express, MongodB, Python, and
+                  React.{" "}
                 </b>
               </i>
               <br />
