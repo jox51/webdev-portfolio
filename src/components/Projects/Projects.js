@@ -5,6 +5,7 @@ import Particle from "../Particle"
 
 import picks from "../../Assets/Projects/picks.jpg"
 import goals from "../../Assets/Projects/goals.png"
+import arbs from "../../Assets/Projects/arbs.jpg"
 
 function Projects() {
   return (
@@ -40,18 +41,18 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={arbs}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Crypto Arbitrage"
+              description="An app that authorized user can use to detect arbitrage opportunities between the Delta exchange and Deribit exchange. This app scans all options on both of these exchanges and looks for arbitrages by using Put-Call Parity. If an arbitrage is found, it will list it in the table provided."
+              ghLink="https://github.com/jox51/arb-app2"
+              demoLink="https://arb-app2-client.onrender.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
