@@ -6,6 +6,7 @@ import Particle from "../Particle"
 import picks from "../../Assets/Projects/picks.jpg"
 import goals from "../../Assets/Projects/goals.png"
 import arbs from "../../Assets/Projects/arbs.jpg"
+import exclusive from "../../Assets/Projects/exclusive.jpg"
 
 function Projects() {
   return (
@@ -52,16 +53,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={exclusive}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Exclusive Picks"
+              description="App where an authenticated user can filter baseball and basketball games depending on their numerology profile and filter based on the teams with the best probability of winning. Built with React using Vite.  Site using React Redux to manage state. API connected using Axios via a provider on Rapid API. Authentication done via JWT through the server. User can register, login, and logout. Once logged in, they have access to full functionality. "
+              ghLink="https://github.com/jox51/exclusive-picks"
+              demoLink="https://exclusive-picks-client.onrender.com/"
             />
-          </Col> */}
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
