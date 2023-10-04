@@ -25,7 +25,7 @@ function Home2() {
                 <b className="purple">
                   {" "}
                   HTML, CSS, Javascript, Node, Express, MongodB, Python, and
-                  React.{" "}
+                  React, Next, Langchain.{" "}
                 </b>
               </i>
               <br />
@@ -33,7 +33,7 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">
-                  Web Applications, SAAS, and Innovative Products.
+                  Web Applications, SAAS, AI, and Innovative Products.
                 </b>
               </i>
               <br />
